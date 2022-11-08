@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(56, 100, 113);
+    font-size:20pt;
+    color: rgb(55, 155, 231);
+    
+
+}
+header{
+
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.554);
+}
+
+section{
+    width: 700px;
+    background-color: rgb(123, 140, 107);
+    border-radius: 20px;
+    color: black;
+    margin: auto;
+    padding: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.174);
+
+}
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.554);
+}
+
+select{
+    width: 180px;
+}
+
+input#zerar{
+    display: block;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    background-color: rgba(79, 90, 68, 0.321);
+}
+

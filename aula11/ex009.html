@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estrangeiro ?</title>
+</head>
+<body>
+    <h1>Você é Brasileiro? </h1>
+    <p>Digite seu País: </p>
+    <input type="text" name="txtpais" id="txtpais" onsubmit="input()">
+    <div id="res">Resultado </div>
+
+<script>
+    function input() {
+        var pais = document.getElementById ('txtpais')
+        var resultado = document.getElementById('res')
+        resultado.innerHTML = (pais)
+    }
+    
+</script>
+
+
+</body>
+</html>

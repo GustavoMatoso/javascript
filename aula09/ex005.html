@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aprendendo DOM</title>
+    <style>
+        body{
+            background-color: lightskyblue;
+            font: normal 18px Verdana;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Aprendendo DOM</h1>
+    <p>Me chamo Gustavo</p>
+    <p>É um prazer te conhecer</p>
+
+    <div id="clique">Clique em mim <strong>AGORA</strong>!</div>
+    <br>
+    <script>
+        var nome = document.getElementsByTagName('p')[0]
+        document.writeln(nome.innerText)
+       
+        var id = document.getElementById("clique")
+        document.writeln('por favor, '+ id.innerText)
+
+        var body = document.body
+        body.style.background = 'black'
+        body.style.color = 'white' 
+        id.style.background = 'gray'
+        id.style.font = 'Normal 2em Arial'
+
+        window.document.getElementById('clique').innerText = 'OXENTE'
+
+        
+        
+    </script>
+
+
+</body>
+</html>

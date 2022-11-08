@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estrangeiro ?</title>
+    <style>
+        body{
+
+            background-color: rgb(68, 102, 132);
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Você é Brasileiro? </h1>
+    <p>Digite seu País: </p>
+    <input type="text" name="txtpais" id="txtpais" >
+    <input type="button" value="botao" onclick="algoritmo()">
+    <div id="res">Resultado </div>
+
+<script>
+    function algoritmo() {
+        var pais = document.getElementById ('txtpais')
+        paisdigitado = pais.value.toLowerCase()
+        var resultado = document.getElementById('res')
+        var brasil = "brasil" 
+        resultado.innerText = "Você é Estrangeiro"
+        //document.write(paisdigitado)
+        if (paisdigitado == brasil ) {
+            resultado.innerText = "Você é Brasileiro"
+
+        }
+
+    }
+    
+</script>
+
+
+</body>
+</html>
