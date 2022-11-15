@@ -5,8 +5,23 @@
 */
 
 function myfunction(a,b){
-    return a.splice(a.indexOf(b))
+    const filtered = []
+    for(const item of a){
+        if (item !==b){
+            filtered.push(item)
+        }
+    }
+
+    return filtered
 }
+    
+
+
+
+
+
+    //return a.filter(item => item !== b)
+
 
 
 console.log(myfunction([1,2,3],2)); // [1,3]
