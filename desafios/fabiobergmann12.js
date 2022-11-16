@@ -13,12 +13,10 @@
 
 
 function myfunction(a,b){
-    var array = []
-   a = a.sort().reverse()
-    for( i=0 ; array.length < a.length && a[i] > b; i++){
-        array.push(a[i])}
     
-    return array;
+  
+      
+    return ;
 
 }
 
